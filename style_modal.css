@@ -2,19 +2,13 @@
   --bg: #0079ea;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .wrapper {
-  width: 50%;
+  width: 28%;
   height: 200px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  float: right;
 }
 
 #button {
@@ -23,8 +17,7 @@ body {
 }
 
 .label {
-  position: absolute;
-  border: 2px solid var(--bg);
+  position: relative;
   width: 200px;
   height: 30px;
   border-radius: 50px;
@@ -45,14 +38,14 @@ body {
 .close {
   width: 20px;
   height: 20px;
-  position: absolute;
-  top: 25px;
-  right: 15px;
+  position: absolute; 
+  top: 15px;
+  right: 5px;
   cursor: pointer;
   opacity: 0;
 }
 .close:before, .close:after {
-  position: absolute;
+ position: absolute; 
   content: '';
   width: 2px;
   height: 17px;
