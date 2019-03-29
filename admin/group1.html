@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
  <head>
-  <meta charset=utf-8" />
+  <meta charset="utf-8">
   <title>Group1</title>
-  <link rel="stylesheet" href="style_main_admin.css">
+  <link rel="stylesheet" href="general_admin.css">
   </head>
-  <body>
-	<table width="1500px" border="1">
-		<thead bgcolor="#c9a5bf">
+  <body bgcolor="#ffffff">
+	<table width="1500px" border="1" class="marks">
+		<thead bgcolor="#bdc3e8">
 		<tr>
 		<td class="names" rowspan="2" width="200px">Ученик</td>
 		<td colspan="1" contenteditable="true">Дата</td>
@@ -28,25 +28,27 @@
 		<td colspan="1" contenteditable="true">Дата</td>
 		</tr>
 		<tr>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
-		<td contenteditable="true">Тема</td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		<td><label for="button">Тема</label></td>
+		
 		</tr>
 		</thead>
-		<tbody bgcolor="#f2e9f0">
+		<tbody bgcolor="#ffffff">
+		<tr>
 		<td class="names" rowspan="2" width="200px">Катя Старшова</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
@@ -65,7 +67,7 @@
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		</tr>
-		<tr>
+		<tr class="DZ">
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
@@ -101,7 +103,7 @@
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		</tr>
-		<tr>
+		<tr class="DZ">
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
@@ -137,7 +139,7 @@
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		</tr>
-		<tr>
+		<tr class="DZ">
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
@@ -173,7 +175,7 @@
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		</tr>
-		<tr>
+		<tr class="DZ">
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
@@ -209,7 +211,7 @@
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		</tr>
-		<tr>
+		<tr class="DZ">
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
@@ -245,7 +247,7 @@
 		<td colspan="1" contenteditable="true">Оценка</td>
 		<td colspan="1" contenteditable="true">Оценка</td>
 		</tr>
-		<tr>
+		<tr class="DZ">
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
 		<td contenteditable="true">ДЗ</td>
@@ -266,6 +268,14 @@
 		</tr>
 		</tbody>
 	</table>
-	<button type="submit">Сохранить</button>
+
+	<button type="submit" class="but">Сохранить</button>
+
+			<div class="wrapper">
+				<input type="checkbox" id="button">
+				<div class="modal">
+					<label for="button" class="close"></label>
+				</div>
+			</div>
   </body>
   </html>

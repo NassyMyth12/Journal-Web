@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
  <head>
-  <meta charset=utf-8" />
+  <meta charset="utf-8">
   <title>Шапка</title>
-  <link rel="stylesheet" href="general.css">
-
+  <link rel="stylesheet" href="style_button.css">
   </head> 
   
-  <body bgcolor="#3ea4c9">
+  <body bgcolor="#303F9F">
   <table width="100%">
   <tr>
-  <td width="90%">
-  <!--<img src="C:\Users\Nassy\Desktop\Journal\images\miet.png" width="60px">-->
-  <h1>ЦКО МИЭТ</h1>
-  </td>
-  <td width="10%"> 
-  <a href="profile.html" target="main">Профиль</a>
-  <a href="C:\Users\Nassy\Desktop\Journal\new_login.html" target="_top"><p>Выйти</a>
-  </td>
+    <td width="90%">
+    <img src="..\images\CKO_white.png" width="130px" hspace="50px">
+    <!--<h1>ЦКО МИЭТ</h1>-->
+    </td>
+    <td width="10%"> 
+      <!--<button value="but"><a href="profile.html" target="main">Профиль</a></button>
+      <button value="but"><a href="..\new_login.html" target="_top">Выйти</a></button>-->
+
+        <form class="head" action="profile.html" target="main" method="post">
+          <input type="submit" value="Профиль">
+        </form>
+        <form class="head" action="..\new_login.html" target="_top" method="post">
+          <input type="submit" value="Выйти">
+        </form>
+
+
+    </td>
   </tr>
   </table>
  

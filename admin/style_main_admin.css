@@ -2,5 +2,56 @@
   position: sticky;
   left: 0;
   min-height: 2em;
-  background: #e0c8db;
+  background: #bdc3e8;
+}
+
+.DZ{
+	background: #e8ebf7;
+}
+
+.stay{
+  position: fixed;
+  min-height: 2em;
+  background: none;
+}
+
+ .round {
+    border-radius: 100px;
+    box-shadow: 0 0 0 #383838, 0 0 13px #333;
+   }
+
+.marks {
+	font-family: Sans-Serif; 
+	text-align: center; 
+	border-collapse: separate; 
+	border-spacing: 5px; 
+	border: 16px solid #ffffff; 
+	border-radius: 20px;
+}
+
+h3 {
+	text-align: center;
+	font-family: Sans-Serif; 
+	color: #fff;
+}
+
+.menu {
+  text-align-last:  center;
+  margin-left: 50px;
+  padding: 0;
+  list-style-type: none;
+  width: 100px;
+}
+
+.menu a {
+  background-color: #3F51B5;
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+.menu li {
+  border-left: 10px solid #fff;
+  border-bottom: 1px solid #fff;
 }
