@@ -89,7 +89,7 @@ padding: 10px;
 } 
 
 /* Активация секций с помощью псевдокласса :checked */
-#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab5:checked~#content-tab5, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
 	display: block;
 }
 /* Убираем текст с переключателей 
