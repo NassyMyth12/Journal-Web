@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+ <head>
+  <meta charset="utf-8" />
+  <title>Profile</title>
+  <link href="../static/style_main_admin.css" rel="stylesheet">
+  <link href="../static/style_modal_admin.css" rel="stylesheet">
+  <link href="../static/style_button.css" rel="stylesheet">
+  <link href="../static/style_tabs_admin.css" rel="stylesheet">
+  <link href="../static/general_font.css" rel="stylesheet">
+  </head>
+  
+  <body bgcolor="#ffffff">
+  
+  <div class="tabs">
+  
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1" title="ЛичИнф">Профиль</label>
+ 
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2" title="Группы">Группы</label>
+ 
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3" title="Уведомления">Уведомления</label>
+  
+	<section id="content-tab1">
+		<table width="100%" cellspacing="0" cellpadding="0">
+		<tr> 
+			<td width="250px">
+				<img src="..\images\ava.jpg" alt="" class="round" width ="200px" vspace="10" hspace="40" align="right">
+			</td>
+			<td width="300px" align="left">
+				<h2><b>Иванов Иван Иванович</b></h2>
+				<h3>E-mail: ivan@gmail.com</h3>
+			</td>
+        	</tr>
+		</table>
+	</section>		
+		
+		
+	<section id="content-tab2">	
+				<h2><p>Ведет курсы: </p></h2>
+				<h4><a href="group1.html" target="main">C++ СБ 10:00</a></h4>
+				<h4><a href="group1.html" target="main">Scratch СБ 12:30</a></h4>
+				<h4><a href="group1.html" target="main">Stencyl СБ 15:00</a></h4>
+				<h4><a href="group1.html" target="main">C++ СБ 10:00</a></h4>
+				<h4><a href="group1.html" target="main">Scratch СБ 12:30</a></h4>
+				<h4><a href="group1.html" target="main">Stencyl СБ 15:00</a></h4>
+				<h4><a href="group1.html" target="main">C++ СБ 10:00</a></h4>
+				<h4><a href="group1.html" target="main">Scratch СБ 12:30</a></h4>
+				<h4><a href="group1.html" target="main">Stencyl СБ 15:00</a></h4>
+				<p><input type="text" class="new_group">
+				<button class="but_add"><i class="fontello">+</i></button>
+				
+	</section>
+  
+      <section id="content-tab3">
+	<table>
+	<tr>
+	<td width="50%">
+	<form action="">
+	<p>Выберите группы:</p>
+	<p><input type="checkbox" name="drink" value="rad1">Group<Br>
+	<input type="checkbox" name="drink" value="rad2">Group<Br>
+	<input type="checkbox" name="drink" value="rad3">Group</p>
+  <p>Текст уведомления:</p>
+  <p><textarea rows="10" cols="45" name="comment"></textarea></p>
+  <p><input type="submit" ></p>
+ </form>
+	
+	
+	</td>
+	<td>
+	<table align = "top" width="100%"><!--style=" font-family: Sans-Serif; text-align: center; border-collapse: separate; border-spacing: 5px; border: 16px solid #ECE9E0; border-radius: 20px;"--> 
+			<thead style="background: #e7e7e7"><tr> 
+				<td width="100">Дата</td>
+				<td width="500">Уведомление</td>
+				<td width="100">Удалить</td>
+			</tr> </thead> 
+			<tbody style="background: #f0f0f0">
+				<tr> 
+					<td>01.09.2019</td>
+					<td>
+						<label for="button" class="label">4 и 5 мая занятий не будет!</label>	
+					</td>
+					<td align="center"><button>x</button></td>
+				</tr>
+				<tr> 
+					<td>01.09.2019</td>
+					<td>
+						<label for="button" class="label">4 и 5 мая занятий не будет!</label>	
+					</td>
+					<td align="center"><button>x</button></td>
+				</tr>
+				<tr> 
+					<td>01.09.2019</td>
+					<td>
+						<label for="button" class="label">4 и 5 мая занятий не будет!</label>	
+					</td>
+					<td align="center"><button>x</button></td>
+				</tr>				
+			</tbody>
+		</table>
+	
+	
+	
+	
+	
+	</td>
+	</tr>
+	</table>
+    
+    </section>
+
+  
+  
+	</div>
+  </body>
+  </html>
