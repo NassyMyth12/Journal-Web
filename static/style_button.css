@@ -20,7 +20,7 @@
 }
 
 .but {
-	position: fixed;
+	position: absolute;
 	border:0;
 	background: none;
 	display: block;
