@@ -1,8 +1,14 @@
 .names{
-  position: sticky;
-  left: 0;
-  min-height: 2em;
-  background: #bdc3e8;
+	position: sticky;
+	left: 0;
+	min-height: 2em;
+	background: #bdc3e8;
+}
+
+.for_buttons {
+	position: sticky;
+	left: 0;
+	min-height: 2em;
 }
 
 .DZ{
@@ -23,7 +29,7 @@
 .marks {
 	font-family: Sans-Serif; 
 	text-align: center; 
-	border-collapse: separate; 
+	border-collapse: collapse; 
 	border-spacing: 5px; 
 	border: 16px solid #ffffff; 
 	border-radius: 20px;
@@ -74,4 +80,7 @@ h3 {
 	src: local("fontello"), /* проверяем наличие шрифта в ОС пользователя */
          url('../font/fontello.ttf');
 	
+}
+.groups {
+	background-color: #3F51B5;
 }
