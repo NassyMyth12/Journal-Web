@@ -43,10 +43,10 @@ h3 {
 
 .menu {
   text-align-last:  center;
-  margin-left: 50px;
+  margin: 20px;
   padding: 0;
   list-style-type: none;
-  width: 100px;
+  width: auto;
 }
 
 .menu a {
@@ -63,8 +63,10 @@ h3 {
 }
 .new_group{
 	
-	/*color: #fff;*/
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #e8ebf7;
+	width: 80%;
+	
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 	
 }
 .but_add{
@@ -83,4 +85,15 @@ h3 {
 }
 .groups {
 	background-color: #3F51B5;
+}
+
+
+h4{
+	color: #3F51B5;
+	font-weight: bold;
+}
+a{
+	color: #3F51B5;
+	font-weight: bold;
+	text-decoration: none;
 }
