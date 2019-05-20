@@ -33,6 +33,13 @@
 	border-spacing: 5px; 
 	border: 16px solid #ffffff; 
 	border-radius: 20px;
+	
+}
+.theme {
+	max-width:70px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 h3 {
