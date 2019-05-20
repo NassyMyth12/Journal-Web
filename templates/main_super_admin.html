@@ -6,7 +6,7 @@
   <link href="../static/style_main_admin.css" rel="stylesheet">
   <link href="../static/style_modal_admin.css" rel="stylesheet">
   <link href="../static/style_button.css" rel="stylesheet">
-  <link href="../static/style_tabs_admin.css" rel="stylesheet">
+  <link href="../static/style_tabs_super.css" rel="stylesheet">
   <link href="../static/general_font.css" rel="stylesheet">
   </head>
   
@@ -15,58 +15,85 @@
   <div class="tabs">
   
     <input id="tab1" type="radio" name="tabs" checked>
-    <label for="tab1" title="Группы">Группы</label>
+    <label for="tab1" title="Группы">Курсы</label>
  
     <input id="tab2" type="radio" name="tabs">
-    <label for="tab2" title="Ученики">Ученики</label>
- 
-    <input id="tab3" type="radio" name="tabs">
-    <label for="tab3" title="Преподаватели">Преподаватели</label>
+    <label for="tab2" title="Ученики">Группы</label>
+	
+	<input id="tab3" type="radio" name="tabs">
+    <label for="tab3" title="Аккаунты">Аккаунты</label>
   
 	<section id="content-tab1">
-
-		<h2><p>Список курсов: </p></h2>
-				<h4><a href="group1.html" target="group">C++ СБ 10:00</a></h4>
-				<h4><a href="group1.html" target="group">Scratch СБ 12:30</a></h4>
-				<h4><a href="group1.html" target="group">Stencyl СБ 15:00</a></h4>
-				<h4><a href="group1.html" target="group">C++ СБ 10:00</a></h4>
-				<h4><a href="group1.html" target="group">Scratch СБ 12:30</a></h4>
-				<h4><a href="group1.html" target="group">Stencyl СБ 15:00</a></h4>
-				<h4><a href="group1.html" target="group">C++ СБ 10:00</a></h4>
-				<h4><a href="group1.html" target="group">Scratch СБ 12:30</a></h4>
-				<h4><a href="group1.html" target="group">Stencyl СБ 15:00</a></h4>
-				<p><input type="text" class="new_group">
-				<button class="but_mini"><i class="fontello">+</i></button></p>
-
+		<h4>Курсы ЦКО МИЭТ:</h4>
+		<!--<table>
+		<tr>
+		<td><h5>C++</h5></td><td><button class="but_mini"><i class="fontello">x</i></button></td>
+		</tr>
+		<tr>
+		<td><h5>Scratch</h5></td><td><button class="but_mini"><i class="fontello">x</i></button></td>
+		</tr>
+		<tr>
+		<td><h5>Unity 3D</h5></td><td><button class="but_mini"><i class="fontello">x</i></button></td>
+		</tr>
+		</table>-->
+		
+		<h5>Unity 3D   <button class="but_mini"><i class="fontello">x</i></button></h5>
+		<h5>C++   <button class="but_mini"><i class="fontello">x</i></button></h5>
+		<h5>Unity 3D   <button class="but_mini"><i class="fontello">x</i></button></h5>
+		
+		<h4>Название курса:</h4>
+		<p><input type="text"></p>
+		<h4>Количество ак. часов:</h4>
+		<p><input type="text"></p>
+		<p><input type="submit" class = "but" value="Добавить"></p>
+		
 	</section>		
 		
 	<section id="content-tab2">	
-			<h2><p>Список учеников ЦКО МИЭТ: </p></h2>
-				<h4>Марандюк Анатолий</h4>
-				<h4>Мефед Анастасия</h4>
-				<h4>Солонин Михаил</h4>
-				<h4>Аргунов Роман</h4>
-				<h4>Абаськин Кирилл</h4>
-				<p><input type="text" class="new_group">
-				<button class="but_mini"><i class="fontello">+</i></button></p>		
+	<h4>Название курса: </h4>
+	<p><input type="text"></p>
+	<h4>Выберите курс: </h4>
+	   <p><select name="course_name">
+    <option disabled>Курс</option>
+    <option value="С++">С++</option>
+    <option value="Unity 3D">Unity 3D</option>
+    <option value="Scratch">Scratch</option>
+    <option value="3D">3D</option>
+   </select></p>
+   <h4>Выберите преподавателя: </h4>
+	   <p><select name="course_name">
+    <option disabled>Курс</option>
+    <option value="Марандюк Анатолий">Марандюк Анатолий</option>
+    <option value="Мефед Анастасия">Мефед Анастасия</option>
+    <option value="Абаськин Кирилл">Абаськин Кирилл</option>
+    <option value="Аргунов Роман">Аргунов Роман</option>
+   </select></p>
+   <h4>Доп. информация:</h4>
+		<p><textarea rows="10" name="comment"></textarea></p>
+  	<p><input type="submit" class = "but" value="Добавить"></p>
 				
 	</section>
-  
-    <section id="content-tab3">
+ 
 
-	<h2><p>Список преподавателей ЦКО МИЭТ: </p></h2>
-				<h4>Марандюк Анатолий</h4>
-				<h4>Мефед Анастасия</h4>
-				<h4>Солонин Михаил</h4>
-				<h4>Аргунов Роман</h4>
-				<h4>Абаськин Кирилл</h4>
-				<p><input type="text" class="new_group">
-				<button class="but_mini"><i class="fontello">+</i></button></p>
-	
-    </section>
-
+	<section id="content-tab3">
   
+		<h4>Выберите тип аккаунта:</h4>
+		<input type="radio" name="drink" value="rad1">Ученик<Br>
+		<input type="radio" name="drink" value="rad2">Преподаватель<Br>
+		<input type="radio" name="drink" value="rad3">Администратор</p>
+		
+		<h4>ФИО:</h4>
+		<p><input type="text"></p>
+		<h4>Почта:</h4>
+		<p><input type="text"></p>
+		<h4>Дата рождения:</h4>
+		<p><input type="text"></p>
+		<h4>Доп. информация:</h4>
+		<p><textarea rows="10" name="comment"></textarea></p>
+		
+		<p><input type="submit" class = "but" value="Добавить"></p>
   
+	</section>
 	</div>
   </body>
   </html>
